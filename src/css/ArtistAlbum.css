@@ -1,0 +1,11 @@
+.artist_album_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222052;
+}
+
+.artist_album_title {
+    margin-top: 20px;
+}

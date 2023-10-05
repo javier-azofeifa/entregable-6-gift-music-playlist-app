@@ -1,0 +1,20 @@
+.artist_info_section {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    background-color: chocolate;
+}
+
+.artist_info_header img {
+    width: 450px;
+}
+
+.artist_info_article {
+    margin-left: 50px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.artist_info_title {
+    margin-bottom: 20px;
+}

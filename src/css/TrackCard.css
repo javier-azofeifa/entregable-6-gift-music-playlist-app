@@ -1,0 +1,38 @@
+.track_card_container {
+    display: flex;
+    align-items: center;
+    
+    margin: 25px 155px;
+    background-color: chocolate;
+}
+
+.track_card_header img {
+    width: 200px;
+}
+
+.track_card_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.track_card_article {
+    margin-left: 25px;
+    line-height: 20px;
+}
+
+.track_card_title {
+    margin-bottom: 20px;
+}
+
+.track_card_footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 25px;
+}
+
+.track_card_button {
+    background-color: transparent;
+}

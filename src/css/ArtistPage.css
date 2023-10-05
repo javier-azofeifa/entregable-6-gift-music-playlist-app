@@ -1,0 +1,28 @@
+.artist_page_container {
+  background-color: #222052;
+}
+
+.artist_page_button {
+    display: flex;
+    justify-content: center;
+}
+
+.artist_page_button button {
+  width: 145px;
+  padding: 0.2em;
+  margin: 50px;
+  border-radius: 20px;
+  background: linear-gradient(97.62deg, #886ae2 43.66%, #a284f6 116.16%);
+}
+
+.artist_page_link {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.artist_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

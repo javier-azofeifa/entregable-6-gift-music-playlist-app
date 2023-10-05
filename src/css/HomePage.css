@@ -1,0 +1,51 @@
+.home_container {
+  min-height: 100vh;
+  background-color: #222052;
+}
+
+.home_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.home_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home_info label {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.home_info input {
+  width: 450px;
+  font-family: inherit;
+  color: white;
+  background: none;
+  border-bottom: 1px solid gold;
+}
+
+.home_select {
+  width: 75px;
+  padding: 0.4em;
+  margin-left: 40px;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background: linear-gradient(97.62deg, #886ae2 43.66%, #a284f6 116.16%);
+}
+
+.home_select option {
+    color: white;
+    background: #886ae2;
+    text-align: center;
+}
+
+.track_container {
+  padding: 25px 0;
+}

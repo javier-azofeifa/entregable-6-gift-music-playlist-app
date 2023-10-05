@@ -1,0 +1,80 @@
+.register_container {
+  min-height: 100vh;
+  background-image: url("../public/images/Picture1.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.register_container img {
+  width: 550px;
+}
+
+.register_title {
+  margin-bottom: 55px;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.register_form {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.register_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register_info label {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.register_info input {
+  width: 450px;
+  font-family: inherit;
+  color: white;
+  background: none;
+  border-bottom: 1px solid gold;
+}
+
+.register_button {
+  width: 150px;
+  padding: 0.4em;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background: linear-gradient(97.62deg, #886AE2 43.66%, #A284F6 116.16%);
+}
+
+.register_submit {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1050px) {
+  .register_container {
+    flex-direction: column;
+  }
+
+  .register_box {
+    margin: 55px 0;
+  }
+
+  .register_container img {
+    width: 350px;
+    margin-top: 55px;
+  }
+
+  .register_info input {
+    width: 300px;
+  }
+}

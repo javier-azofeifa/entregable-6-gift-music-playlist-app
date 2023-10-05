@@ -1,0 +1,9 @@
+.track_related_container {
+  min-height: 100vh;
+  background-color: #222052;
+}
+
+.track_related_title {
+  text-align: center;
+  padding: 25px 0;
+}

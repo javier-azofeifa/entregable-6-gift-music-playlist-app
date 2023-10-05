@@ -1,0 +1,19 @@
+.album_card_article {
+    background-color: chocolate;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    width: 800px;
+}
+
+.album_card_header img {
+    width: 250px;
+}
+
+.album_card_info {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    flex-direction: column-reverse;
+}

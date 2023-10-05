@@ -1,0 +1,25 @@
+.track_info_container {
+    margin-left: 50px;
+}
+
+.track_info_article {
+    display: flex;
+    align-items: center;
+}
+
+.track_info_header img {
+ width: 250px;
+}
+
+.track_info_section {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.track_iframe {
+    margin: 40px 0;
+}
