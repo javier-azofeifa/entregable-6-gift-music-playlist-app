@@ -1,3 +1,4 @@
+import picture2 from "../assets/picture2.png";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
@@ -17,7 +18,7 @@ const LoginPage = () => {
 
   return (
     <div className="login_container">
-      <img src="/images/Picture2.png" alt="" />
+      <img src={picture2} alt="" />
       <div className="login_box">
         <article>
           <h2 className="login_title">Login</h2>

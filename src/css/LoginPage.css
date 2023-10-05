@@ -1,6 +1,6 @@
 .login_container {
   min-height: 100vh;
-  background-image: url("../public/images/Picture1.png");
+  background-image: url("../assets/picture1.png");
   background-size: cover;
   display: flex;
   align-items: center;
